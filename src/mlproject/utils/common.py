@@ -1,10 +1,10 @@
 import os
 from box.exceptions import BoxValueError 
 import yaml 
-from mlproject import logger
+from mlproject.logging import logger
 import json
 import joblib # type: ignore
-from ensurepip import ensure_annotations
+from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
